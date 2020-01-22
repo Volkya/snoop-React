@@ -10,7 +10,7 @@ function Navegation() {
         <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                    <a href="/" className="nav-link">Home</a>
+                    <a href="#home" className="nav-link">Home</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#somos">Quienes somos</a>

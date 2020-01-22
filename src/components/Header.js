@@ -1,7 +1,9 @@
 import React from "react";
+import './Landing.css';
+
 
 function Header() {
-    return <header className="main-header">
+    return <header id="home" className="main-header">
         <div className="background-overlay py-5 ">
             <div className="card cardo">
                 <div className="card-body m-3">

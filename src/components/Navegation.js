@@ -2,7 +2,7 @@ import React from "react";
 
 function Navegation() {
     return <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="/">Index</a>
+        <a className="navbar-brand" href="/">Snoop Consulting SRL</a>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>

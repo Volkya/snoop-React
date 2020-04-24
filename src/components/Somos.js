@@ -2,8 +2,8 @@ import React from "react";
 import './Landing.css';
 
 
-function Header() {
-    return <header id="home" className="main-header">
+function Somos() {
+    return <header id="somos" className="main-header">
         <div className="background-overlay py-5 ">
             <div className="card cardo">
                 <div className="card-body m-3">
@@ -19,4 +19,4 @@ function Header() {
     </header>
 }
 
-export default Header;
+export default Somos;

@@ -1,8 +1,8 @@
 import React from "react";
 import Foot from './adventure.jpg';
 
-function Footer() {
-    return <section id="#footer">
+function Contacto() {
+    return <section id="contacto">
         <div className="row">
             <div className="col-md-6 imgfigure">
                 <img src={Foot} alt=""/>
@@ -22,5 +22,5 @@ function Footer() {
     </section>
 }
 
-export default Footer;
+export default Contacto;
 

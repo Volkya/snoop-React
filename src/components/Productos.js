@@ -1,8 +1,8 @@
 import React from "react";
 import Thumb from './cappuccino.jpg';
 
-function Slideshow() {
-    return <section className="text-center carusel">
+function Productos() {
+    return <section className="text-center carusel" id="productos">
         <h1 className="text-left text-white mb-3">Nullam sed urna justo.</h1>
         <div className="multiple-items slider">
             <div>
@@ -13,4 +13,4 @@ function Slideshow() {
     </section>
 }
 
-export default Slideshow;
+export default Productos;

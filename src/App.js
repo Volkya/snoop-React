@@ -3,17 +3,17 @@ import './App.css';
 import './components/Landing.css';
 
 import Navegation from './components/Navegation';
-import Header from "./components/Header";
-import Slideshow from "./components/Slideshow";
-import Footer from "./components/Footer";
+import Somos from "./components/Somos";
+import Productos from "./components/Productos";
+import Contacto from "./components/Contacto";
 
 function App() {
   return (
     <div className="App">
         <Navegation/>
-        <Header/>
-        <Slideshow/>
-        <Footer/>
+        <Somos/>
+        <Productos/>
+        <Contacto/>
     </div>
   );
 }

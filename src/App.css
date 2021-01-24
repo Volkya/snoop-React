@@ -1,53 +1,159 @@
+/*DEBIDO QUE LA ESTRUCTURA ES MUY SIMPLE, NO HAGO ESTILOS PERSONALIZADOS NI PROPIEDADES PERSONALIZADAS PARA CADA COMPONENTE*/
+/*COLOCA ACA TODOS LOS ESTILOS DE LAS SECCIONES*/
+
+/* Componente 1 navbar */
 .navbar .nav-item .nav-link {
   color: #000 !important;
   text-decoration: none !important;
-  cursor: pointer !important;
+  cursor: text !important;
+  font-style: italic;
+  font-family: Arial Black, cursive fantasy;
+  font-weight: 500;
 }
 
-.App {
-  text-align: center;
+/*Componente 2 header*/
+.cardo{
+  width: 30%;
+  height: 40%;
+  left: 10%;
+  top: 10%;
+  box-sizing: border-box;
+  display: block;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main-header {
+  background-image: url("/img/chairs.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+  position: relative;
+  background-blend-mode: multiply;
+  background-color: red;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background-overlay {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*
+  background: linear-gradient(90deg, red 35%, blue);*/
+  background: -webkit-linear-gradient(to right, red 30%, transparent, transparent);
+  background: linear-gradient(to right, red 30%, transparent, transparent);
+}
+/*.background-overlay:before{
+content: "";
+width: 100%;
+width: 100%;
+height: 100%;
+background-color: red;
+position: absolute;
+top: 0;
+opacity: 0.8;
+}*/
+
+/*CARUSEL*/
+.carusel {
+  background: red;
+  height: 275px;
+
+  clip-path: polygon(0 0, 100% 0, 100% 49%, 0 31%);
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.team:before {
+  content: "";
+  position: absolute;
+  height: 0px;
+  width: 0;
+  top: -85;
+  left: -18px;
+  border-width: 0 45px 35px;
+  border-style: solid;
+  border-color: transparent transparent green;
 }
 
-.App-link {
-  color: #61dafb;
+/*FOOTER*/
+*, *:before, *:after{
+  box-sizing: border-box;
+}
+.imgfigure img{
+  max-width: 100%;
+  height: auto;
+  background-size: cover;
+  clip-path: polygon(0 0, 77% 15%, 100% 100%, 0% 100%);
+
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.textcont{
+  transform: skew(8deg);
+  padding-top: 15%;
+  clip-path: polygon(0 0, 78% 0, 100% 100%, 20% 100%);
+
+}
+
+/*CIRCLE LEFT*/
+
+.test {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  margin-bottom: 10px;
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  background-repeat: repeat-y;
 }
 
 
 
 
+/*@media screen and (min-width: 780px) and (max-width: 1024px){*/
 
+/*}*/
 
+/*@media screen and (min-width: 480px) and (max-width: 980px){*/
+/*  .bg-light {*/
+/*    background-color: transparent !important;*/
+/*  }*/
 
+/*  .navbar{*/
+/*    position: absolute;*/
+/*  }*/
 
+/*  .navbar .nav-item .nav-link {*/
+/*    color: #fff;*/
+/*  }*/
 
+/*  .cardo{*/
+/*    left: 48px;*/
+/*  }*/
+
+/*  .main-header{*/
+/*    min-height: 400px;*/
+/*    height: 400px;*/
+/*  }*/
+
+/*  .background-overlay{*/
+/*    !*display: none;*!*/
+/*  }*/
+
+/*  .imgfigure img{*/
+/*    clip-path: polygon(0% 0%, 100% 25%, 100% 100%, 0% 100%);*/
+/*  }*/
+
+/*  .textcont{*/
+/*    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 70%);*/
+/*    transform: skew(0deg);*/
+/*  }*/
+
+/*  .carusel{*/
+/*    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 25%);*/
+/*  }*/
+
+/*  @media screen and (min-width: 480px){*/
+
+/*  }*/

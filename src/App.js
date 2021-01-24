@@ -1,7 +1,5 @@
 import React from 'react';
 import './App.css';
-import './components/Landing.css';
-
 import Navegation from './components/Navegation';
 import Somos from "./components/Somos";
 import Productos from "./components/Productos";
@@ -12,8 +10,8 @@ function App() {
     <div className="App">
         <Navegation/>
         <Somos/>
-        <Productos/>
-        <Contacto/>
+        {/* <Productos/>
+        <Contacto/> */}
     </div>
   );
 }

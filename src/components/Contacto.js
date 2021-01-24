@@ -1,11 +1,10 @@
 import React from "react";
-import Foot from './adventure.jpg';
 
 function Contacto() {
     return <section id="contacto">
         <div className="row">
             <div className="col-md-6 imgfigure">
-                <img src={Foot} alt=""/>
+                <img src={process.env.PUBLIC_URL +  '/img/adventure.jpg' }/>
             </div>
             <div className="col-md-6 px-2 textcont">
 
